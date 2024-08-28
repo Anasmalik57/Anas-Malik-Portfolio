@@ -10,7 +10,7 @@ function Footer() {
   <div id="FooterContainer" className='w-full px-0 py-8 flex justify-center z-10' >
     {/* FootWrapper */}
   <div id="FooterWrapper" className="w-full max-w-[1200px] flex flex-col gap-3 items-center p-4 text-slate-500 " >
-       <Link to={"/"} > <span id="Logo" className=' text-xl font-semibold text-slate-400 hover:text-green-400 tracking-widest cursor-pointer duration-200' >{"<AnasMalik/>"}</span></Link>
+       <Link to={"/"} > <span id="Logo" className=' text-xl font-semibold text-purple-500 active:text-green-400 tracking-widest cursor-pointer duration-200' >{"<AnasMalik/>"}</span></Link>
         <nav className="w-full max-w-[800px] mt-1  flex flex-row flex-wrap gap-4 text-center text-[14px] lg:text-lg justify-center lg:gap-8 list-none " >
             <li><Link to="/about" className="hover:text-purple-600 cursor-pointer duration-300 ">About</Link></li>
             <li><Link to="/skills" className="hover:text-purple-600 cursor-pointer duration-300 ">Skills</Link></li>

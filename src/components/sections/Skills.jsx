@@ -24,7 +24,8 @@ function Skills() {
             className="w-fit text-lg md:text-[20px] text-center font-[600] text-slate-600 mb-10 tracking-wider"
           >
             {" "}
-            Here are some of my skills on which I have been worked past 3 years{" "}
+            Here are some of my skills on which I have been working on for the
+            past 3 years.{" "}
           </div>
 
           <div
