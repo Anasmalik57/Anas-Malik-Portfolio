@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <div className="flex justify-between items-center text-2xl bg-slate-950 h-20 lg:px-12 shadow-md shadow-purple-950">
       {/* Logo */}
-      <Link to={"/"} > <span id="Logo" className=' text-[22px] font-semibold text-purple-500 active:text-green-400 tracking-widest cursor-pointer  duration-300' >{"<AnasMalik/>"}</span></Link>
+      <Link to={"/"} > <span id="Logo" className=' text-lg md:text-[22px] ml-5 font-semibold text-purple-500 active:text-green-400 tracking-widest cursor-pointer  duration-300' >{"<AnasMalik/>"}</span></Link>
 
       {/* Links */}
       <ul className="hidden list-none lg:flex justify-center items-center font-[500] gap-8 tracking-wide text-sm md:text-lg lg:text-[1.17rem]">
