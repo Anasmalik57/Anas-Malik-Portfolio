@@ -227,6 +227,11 @@ export const skills = [
           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
       },
       {
+        name: "Vercel",
+        image:
+          "https://avatars.githubusercontent.com/u/14985020?s=48&v=4",
+      },
+      {
         name: "Netlify",
         image:
           "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",

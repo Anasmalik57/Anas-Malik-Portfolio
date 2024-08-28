@@ -7,9 +7,9 @@ import { IoLogoVercel } from 'react-icons/io5'
 
 function Footer() {
   return<>
-  <div id="FooterContainer" className='w-full px-0 py-8 flex justify-center z-10' >
+  <div id="FooterContainer" className='w-full relative px-0 py-8 flex justify-center z-10' >
     {/* FootWrapper */}
-  <div id="FooterWrapper" className="w-full max-w-[1200px] flex flex-col gap-3 items-center p-4 text-slate-500 " >
+  <div id="FooterWrapper" className="w-full max-w-[1200px] flex flex-col gap-3 items-center px-4 text-slate-500 " >
        <Link to={"/"} > <span id="Logo" className=' text-xl font-semibold text-purple-500 active:text-green-400 tracking-widest cursor-pointer duration-200' >{"<AnasMalik/>"}</span></Link>
         <nav className="w-full max-w-[800px] mt-1  flex flex-row flex-wrap gap-4 text-center text-[14px] lg:text-lg justify-center lg:gap-8 list-none " >
             <li><Link to="/about" className="hover:text-purple-600 cursor-pointer duration-300 ">About</Link></li>
@@ -26,10 +26,10 @@ function Footer() {
             <a href={Bio.linkedin} target='display' title='LinkedIn' ><LiaLinkedin className='w-full h-full hover:text-blue-500 duration-200' /></a>
         </div>
         </div>
-    </div>
     {/* CopyRight */}
-    <div id="CopyWright">
-
+    <p id="CopyWright" className='mt-2 text-[0.9rem] lg:text-[1rem] text-slate-500 text-center font-[400] tracking-wider ' >
+      &copy; 2024 <span className='hover:text-purple-500 duration-[250ms]  cursor-pointer' >{"<AnasMalik/>"}</span>. All rights reserved.
+      </p>
     </div>
   </div>
   </>
