@@ -42,7 +42,7 @@ function Hero() {
                   className="text-2xl font-semibold flex leading-10 py-4"
                 >
                   I am a
-                  <span className="pl-2 text-purple-600 md:text-orange-600 lg:text-green-500">
+                  <span className="pl-2 lg:text-purple-600 md:text-orange-600 text-green-600">
                     <TypeWriter
                       options={{
                         strings: Bio.roles,
