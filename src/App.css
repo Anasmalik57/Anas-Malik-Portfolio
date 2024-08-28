@@ -1,0 +1,5 @@
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 0px; /* Reduced width for a slimmer scrollbar */
+  height: 80px;
+}
