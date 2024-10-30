@@ -66,7 +66,7 @@ function Hero() {
 
               <button
                 id="checkResume"
-                className="w-[95%] flex justify-center items-center max-w-[200px] md:max-w-[300px] font-semibold py-3  md:py-4 px-0 appearance-auto bg-[#8400ff]  [background:linear-gradient(225deg,#9f00ff_0%,#ff00f5_100%)] rounded-full text-[17px] tracking-widest active:scale-95 shadow-2xl shadow-[#37435b] transition-all"
+                className="w-[95%] animate-bounce duration-300 flex justify-center items-center max-w-[200px] md:max-w-[300px] font-semibold py-3  md:py-4 px-0 appearance-auto bg-[#8400ff]  [background:linear-gradient(225deg,#9f00ff_0%,#ff00f5_100%)] rounded-full text-[17px] tracking-widest active:scale-95 shadow-2xl shadow-[#37435b] transition-all"
               >
                 {" "}
                 Check Resume{" "}
